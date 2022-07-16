@@ -1,0 +1,42 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'melotic'
+theme = "PaperMod"
+
+[params]
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+ShowToc = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+env = "production"
+
+[params.homeInfoParams]
+title = "melotic's blog"
+content = "i like breaking software"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/melotic"
+    
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/justin-perez-a96433165/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:melotic@protonmail.com"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+name = "Archives"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "/search"
+weight = 5
