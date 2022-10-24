@@ -1,7 +1,6 @@
 ---
 title: "Best Cyber Warrior 22 - Fileless Writeup"
 date: 2022-10-19T18:47:54-04:00
-draft: true
 author: Justin
 ---
 
