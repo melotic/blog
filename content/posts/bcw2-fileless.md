@@ -313,7 +313,7 @@ readelf: Error: Reading 1728 bytes extends past end of file for section headers
 
 Yikes. Luckily, we can still *somewhat* disassemble this with Ghidra.
 
-![](/bcw22-fileless/gdb-break-execve.png)
+![](/bcw22-fileless/ghidra-failed.png)
 
 Not good. We can import this manually, and manually disassembly the program by finding the entry point. Load this into Ghidra as a *raw* file.
 
