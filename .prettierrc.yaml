@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://www.schemastore.org/prettierrc.json
+
+printWidth: 80
+parser: markdown
+proseWrap: always
